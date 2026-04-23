@@ -26,7 +26,7 @@ if user_input and st.session_state.uploaded_file:
 
     file = st.session_state.uploaded_file
 
-    # 🔥 IMPORTANT: reset file pointer
+    #IMPORTANT: reset file pointer
     file.seek(0)
 
     files = {
